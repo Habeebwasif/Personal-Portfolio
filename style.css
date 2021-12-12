@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Libre+Baskerville&family=Poppins:wght@500&family=Raleway:wght@500&family=Ubuntu:wght@300&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -14,6 +16,8 @@
     z-index: 10;
     background: #040d22;
     box-shadow: 0 5px 0 #c4bdb7;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
 }
 
 .navlist {
@@ -28,6 +32,7 @@
     font-size: 1rem;
     color: #c4bdb7;
     text-decoration: none;
+    font-family: Raleway ,sans-serif;
 }
 
 a:hover {
@@ -35,3 +40,39 @@ a:hover {
 }
 
 /*End Navbar */
+
+#welcome-section {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    padding-top: 5rem;
+    background: #e6e6fa;
+}
+
+.hero-img {
+    max-width: 300px;
+    display: block;
+    margin: auto;
+}
+
+h1 , .intro , h2 {
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 20px;
+    font-family: Raleway , sans-serif;
+    margin: auto;
+}
+
+.description {
+    text-align: center;
+    padding-top: 2rem;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-family: Raleway , sans-serif;
+    margin: auto;
+}
+
+h1 .heading-inverted, h2 .heading-inverted {
+    color: #6589ad;
+}
